@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Term
-%define	pnam	InKey
+%define		pdir	Term
+%define		pnam	InKey
 Summary:	Term::InKey - Perl extension for clearing the screen and receiving a keystroke
 Summary(pl):	Term::InKey - rozszerzenie Perla do czyszczenia ekranu i odczytu klawisza
 Name:		perl-Term-InKey
