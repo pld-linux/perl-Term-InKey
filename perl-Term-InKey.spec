@@ -8,13 +8,13 @@
 Summary:	Term::InKey - Perl extension for clearing the screen and receiving a keystroke
 Summary(pl):	Term::InKey - rozszerzenie Perla do czyszczenia ekranu i odczytu klawisza
 Name:		perl-Term-InKey
-Version:	1.02
+Version:	1.03
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	aa345505a21b382032a3bd7e54b399fc
+# Source0-md5:	3af1061ac3ffc76e11bf57599252d63c
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
