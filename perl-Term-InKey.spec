@@ -6,7 +6,7 @@
 %define		pdir	Term
 %define		pnam	InKey
 Summary:	Term::InKey - Perl extension for clearing the screen and receiving a keystroke
-Summary(pl.UTF-8):   Term::InKey - rozszerzenie Perla do czyszczenia ekranu i odczytu klawisza
+Summary(pl.UTF-8):	Term::InKey - rozszerzenie Perla do czyszczenia ekranu i odczytu klawisza
 Name:		perl-Term-InKey
 Version:	1.04
 Release:	1
