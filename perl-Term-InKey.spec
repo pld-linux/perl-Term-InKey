@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Term
 %define		pnam	InKey
+%include	/usr/lib/rpm/macros.perl
 Summary:	Term::InKey - Perl extension for clearing the screen and receiving a keystroke
 Summary(pl.UTF-8):	Term::InKey - rozszerzenie Perla do czyszczenia ekranu i odczytu klawisza
 Name:		perl-Term-InKey
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2b31a6bb2f1b48123e6bc8f7a2f72147
+URL:		http://search.cpan.org/dist/Term-InKey/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
